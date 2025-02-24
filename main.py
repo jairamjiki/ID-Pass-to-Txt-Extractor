@@ -2427,5 +2427,4 @@ async def account_login(bot: Client, m: Message):
     with open(f'{file_name}.txt', 'w') as f:
         f.write(cool2)
     await m.reply_document(f"{file_name}.txt")
-
-bot.run()
+    bot.run()
